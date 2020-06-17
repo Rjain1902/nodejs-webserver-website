@@ -1,0 +1,46 @@
+/* h1{
+    color: gold;
+} */
+
+.portrait{
+    width:250px;    
+
+}
+body{
+    color:#333333;
+    font-family: arial;
+    max-width: 650px;
+    margin:0 auto;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.main-content{
+    flex-grow: 1;
+}
+footer{
+    background-color: royalblue;
+    margin: 16px;
+    padding: 20px;
+    columns: #888888;
+    border-top: 1px salmon;
+}
+
+header{
+    margin-top: 10px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color:rosybrown ;
+    margin-right: 16px;
+    text-decoration: none;
+}
