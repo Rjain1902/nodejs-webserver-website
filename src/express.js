@@ -11,6 +11,9 @@ console.log(path.join(__dirname,'../public'))
 console.log(__filename)
 
 const app=express()
+const port =process.env.PORT || 3000
+
+
 const publicdirectorypath=path.join(__dirname,'../public')
 const viewsPath = path.join(__dirname,'../tempelate/views')
 const partialpaths=path.join(__dirname,'../tempelate/partials')
@@ -144,7 +147,7 @@ app.get('*',(req,res)=>{
    
 
 
-app.listen(3000,()=>
+app.listen(pport,()=>
 {
     console.log('server is running')
 })
