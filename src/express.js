@@ -147,7 +147,7 @@ app.get('*',(req,res)=>{
    
 
 
-app.listen(pport,()=>
+app.listen(port,()=>
 {
     console.log('server is running')
 })
